@@ -9,8 +9,8 @@ const Testimonials = () => {
     return (
         <div className="px-4 md:px-20 py-20  duration-200">
             <div ref={ref} className={` transition-transform duration-200 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
-                <button className="border rounded-tr-xl px-2 py-1 text-xs font-semibold bg-gray-800 text-gray-100 font-mono">TESTIMONIALS</button>
-                <h2 className="mt-4 mb-8 text-3xl md:text-4xl font-mono text-gray-800">What Are Our Clients Saying</h2>
+                <button className="border rounded-tr-xl px-2 py-1 text-xs font-semibold bg-[#3b82f6] text-gray-100 font-mono">TESTIMONIALS</button>
+                <h2 className="mt-4 mb-8 text-3xl md:text-4xl  text-gray-800">Hear inspiring, authentic, and transformative stories from our community.</h2>
             </div>
 
             <div className="flex flex-row">

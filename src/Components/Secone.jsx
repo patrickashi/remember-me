@@ -8,7 +8,7 @@ const Secone = () => {
     return (
         <div className="flex justify-center flex-col md:flex-row mx-4 md:mx-20 py-20 mt-10 md:mt-20 mb-12 text-gray-700">
             <div ref={ref} className={`w-full md:w-[600px]   transition-transform duration-100 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
-                <h2 className="text-4xl md:text-4xl mt-12">Healing starts here, where hope meets understanding.</h2>
+                <h2 className="text-4xl md:text-4xl mt-12">Welcome to a Place of Understanding and Healing.</h2>
                 <p className="my-6 text-xl">
                     Whether you're seeking information, inspiration, or just a listening ear, we're here for you.
                     Your journey matters, and we're honored to be a part of it.

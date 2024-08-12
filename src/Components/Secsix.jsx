@@ -2,15 +2,15 @@ import React from "react"
 
 const Secsix = () => {
     return (
-        <div className="px-4 md:px-20 py-20 bg-[#1B2F27] hover:bg-violet-300 hover:text-black duration-200 text-gray-200 border-y  border-gray-300">
+        <div className="px-4 md:px-20 py-20 duration-200 text-gray-800 border-y  border-gray-300">
             <div className="flex gap-16 flex-col md:flex-row">
                 <div className="text-7xl font-bold font-mono">04</div>
-                <div className="text-4xl flex items-center w-60 font-mono">Medical Reimbursement</div>
+                <div className="text-4xl flex items-center w-60 ">Continous Growth</div>
                 <div className="text-sm w-80 md:w-[600px]">
-                    This is the space to describe the service and explain how customers
-                    or clients can benefit from it. It’s an opportunity to add a short
-                    description that includes relevant details, like pricing, duration,
-                    location and how to book the service.
+                    Mental health is a lifelong journey, and we’re committed to walking it with
+                    you every step of the way. Our approach is dynamic, evolving as you do.
+                    We continually update our resources, expand our community, and enhance
+                    our support services to meet your changing needs.
                 </div>
             </div>
         </div>

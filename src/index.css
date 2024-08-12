@@ -16,7 +16,7 @@ body {
         100% 100%, /* Bottom-right */
         0% 100%  /* Bottom-left */
     );
-    background-color: #1B2F27; /* Adjust background color as needed */
+    background-color: #3b82f6; /* Adjust background color as needed */
     padding: 2rem; /* Adjust padding as needed */
     color: white; /* Adjust text color as needed */
 }

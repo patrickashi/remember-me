@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Addfaqs = () => {
+const Mentalhealth = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -10,7 +10,7 @@ const Addfaqs = () => {
   return (
     <div className="faq-section p-4 border-b border-gray-300 w-full max-w-md mx-auto">
       <div className="flex justify-between items-center">
-        <h2 className="text-md font-semibold">Where can I add my FAQs?</h2>
+        <h2 className="text-md font-semibold">What is mental health, and why is it important?</h2>
         <button onClick={toggleVisibility} className="focus:outline-none">
           {isVisible ? (
             <svg
@@ -37,12 +37,15 @@ const Addfaqs = () => {
       </div>
       {isVisible && (
         <p className="mt-4 text-gray-700">
-          FAQs can be added to any page on your site or to your Wix mobile app,
-           giving access to members on the go.
+          Mental health encompasses emotional, psychological, and social well-being.
+           It affects how we think, feel, and act, influencing how we handle stress,
+            relate to others, and make choices. Good mental health is crucial for
+             overall well-being and daily functioning, as it helps us cope with challenges,
+              build relationships, and maintain a positive outlook on life.
         </p>
       )}
     </div>
   );
 };
 
-export default Addfaqs;
+export default Mentalhealth;

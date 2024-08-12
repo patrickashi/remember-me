@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
     return (
-        <div className="px-4 md:px-20 py-10 bg-[#1B2F27] hover:bg-violet-300 hover:text-gray-700 duration-200 text-gray-200 border-t   border-gray-300">
+        <div className="px-4 md:px-20 py-10 bg-[#3b82f6]  duration-200 text-white border-t   border-gray-800">
             <div className="flex gap-16 flex-col md:flex-row justify-between border-b border-gray-300 pb-4">
                 <div>
                     <div className="flex align-middle hover:text-black ">
@@ -10,7 +10,7 @@ const Footer = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
                         </svg>
 
-                        <h2 className="font-semibold text-xl ml-2 ">Belsurance</h2>
+                        <h2 className="font-semibold text-xl ml-2 ">Remember-me</h2>
                     </div>
                 </div>
                 <div>
@@ -24,15 +24,15 @@ const Footer = () => {
                 <div>
                     <h1 className="font-bold mb-4">Contact</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>123-456-7890</li>
-                        <li>belsurance@mail.com</li>
+                        <li>234-915-503-9101</li>
+                        <li>rememberme@mail.com</li>
                     </ul>
                 </div>
                 <div>
                     <h1 className="font-bold mb-4">Address</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>500 Terry Francine Street.</li>
-                        <li>San Francisco, CA 94158</li>
+                        <li>500 Ikeja</li>
+                        <li>Lagos, NG 94158</li>
                     </ul>
                 </div>
                 <div>
@@ -47,7 +47,7 @@ const Footer = () => {
 
             <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between mt-4 text-xs">
                 <div>Pricacy Policy</div>
-                <div>© 2024 belsurance made by patrickpeko</div>
+                <div>© 2024 remember-me author : Michael Oguzi</div>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Faqsection = () => {
+const Professionalhelp = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -10,7 +10,7 @@ const Faqsection = () => {
   return (
     <div className="faq-section p-4 border-b border-gray-300 w-full max-w-md mx-auto">
       <div className="flex justify-between items-center">
-        <h2 className="text-md font-semibold">What is an FAQ section?</h2>
+        <h2 className="text-md font-semibold">How can I know if I need professional help for my mental health?</h2>
         <button onClick={toggleVisibility} className="focus:outline-none">
           {isVisible ? (
             <svg
@@ -37,12 +37,15 @@ const Faqsection = () => {
       </div>
       {isVisible && (
         <p className="mt-4 text-gray-700">
-          An FAQ section, or Frequently Asked Questions section, is a part of a website where common questions 
-          and their answers are displayed. This helps users find information quickly without having to contact support.
+            It may be time to seek professional help if you experience persistent feelings of sadness,
+            anxiety, or hopelessness, have difficulty managing daily tasks, or notice a significant
+            change in your behavior or mood. If your symptoms interfere with your work, relationships,
+            or overall quality of life, reaching out to a mental health professional can provide support,
+            diagnosis, and appropriate treatment.
         </p>
       )}
     </div>
   );
 };
 
-export default Faqsection;
+export default Professionalhelp;
