@@ -1,6 +1,6 @@
 import React from "react"
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
-import aboutpng from "../Assets/aboutpng.png";
+import photo1 from "../Assets/photo1.jpg";
 
 
 const About = () => {
@@ -36,7 +36,7 @@ const About = () => {
             </div>
 
             <div className="flex items-end justify-center">
-              <img src={aboutpng} alt="img" className="w-80 md:w-[600px]" />
+              <img src={photo1} alt="img" className="w-full rounded-md md:w-[600px]" />
             </div>
         </div>
 
