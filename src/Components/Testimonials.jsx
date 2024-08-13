@@ -19,8 +19,11 @@ const Testimonials = () => {
                         <img src={leahyurfset} alt="img" className=" w-80 h-60 rounded-lg object-cover"/>
                     </div>
                     <div className="text-center w-100 border border-gray-400 py-6 px-2 md:6">
-                        <p className="text-gray-600 mb-4 text-sm">This is the space to share a review from one of the business's clients or customers.</p>
-                        <p className="text-gray-900 font-semibold">Leah Yurfset</p>
+                        <p className="text-gray-600 mb-4 text-sm">
+                            Before joining, I felt isolated. This community has given me strength and hope,
+                            making all the difference in my journey.
+                        </p>
+                        <p className="text-gray-900 font-semibold">Sarah T</p>
                     </div>
                 </div>
                 <div className="flex flex-col">
@@ -28,8 +31,11 @@ const Testimonials = () => {
                         <img src={roygold} alt="img" className=" w-80 h-60 rounded-lg object-cover"/>
                     </div>
                     <div className="text-center w-100 border border-gray-400 py-6 px-2 md:6">
-                        <p className="text-gray-600 mb-4 text-sm">This is the space to share a review from one of the business's clients or customers.</p>
-                        <p className="text-gray-900 font-semibold">Roy Gold</p>
+                        <p className="text-gray-600 mb-4 text-sm">
+                            This community is my safe space. The compassion I’ve received here
+                            has been crucial in my healing process
+                        </p>
+                        <p className="text-gray-900 font-semibold">James R</p>
                     </div>
                 </div>
                 <div className="flex flex-col">
@@ -37,8 +43,10 @@ const Testimonials = () => {
                         <img src={nelayliuay} alt="img" className=" w-80 h-60 rounded-lg object-cover"/>
                     </div>
                     <div className="text-center w-100 border border-gray-400 py-6 px-2 md:6">
-                        <p className="text-gray-600 mb-4 text-sm">This is the space to share a review from one of the business's clients or customers.</p>
-                        <p className="text-gray-900 font-semibold">Nela Yliuay</p>
+                        <p className="text-gray-600 mb-4 text-sm">
+                                Being part of this community has been transformative. The resources and
+                             support have empowered me to take control of my mental well-being.</p>
+                        <p className="text-gray-900 font-semibold">Osha Aniseya</p>
                     </div>
                 </div>
             </div>

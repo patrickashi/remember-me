@@ -14,7 +14,7 @@ const Benefits = () => {
             <div className="flex flex-col md:flex-row justify-between gap-4 py-10 text-gray-800 text-3xl ">
                <div className=" clip-path-quadrilateral py-10 flex flex-col justify-center hover:scale-105 hover:text-gray-800 duration-200 cursor-pointer">
                     <h2 className="text-3xl px-10 mb-10 text-center font-semibold">Availability</h2>
-                    <p className="text-center px-10 text-xl">Streamlined support for quick results.</p>
+                    <p className="text-center px-10 text-xl">Support is available whenever you need it.</p>
                 </div>
                <div className="clip-path-quadrilateral py-10 flex flex-col justify-center hover:scale-105 hover:text-gray-800 duration-200 cursor-pointer">
                     <h2 className="text-3xl px-10 mb-10 text-center font-semibold">Efficiency</h2>
