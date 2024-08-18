@@ -42,7 +42,7 @@ const Footer = () => {
 
             <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between mt-4 text-xs">
                 <div>Pricacy Policy</div>
-                <div>© 2024 remember-me | author-Michael Oguzi</div>
+                <div>© 2024 remember-me</div>
             </div>
         </div>
     )
