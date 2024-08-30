@@ -15,6 +15,7 @@ import Approach from "./Components/Approach";
 import Benefits from "./Components/Benefits";
 import About from "./Components/About";
 import Faq from "./Components/Faq";
+import Addictions from "./Components/Addictions";
 
 function App() {
   const [arrowVisible, setArrowVisible] = useState(false);
@@ -51,7 +52,7 @@ function App() {
       <section id="about">
         <About />
       </section>
-      
+      <Addictions />
       <Approach />
       <Benefits />
       <Testimonials />
