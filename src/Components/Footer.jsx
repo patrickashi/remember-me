@@ -20,7 +20,7 @@ const Footer = () => {
                     <h1 className="font-bold mb-4">Contact</h1>
                     <ul className="flex flex-col gap-2">
                         <li>234-915-503-9101</li>
-                        <li>rememberme@mail.com</li>
+                        <li>Oguzimichael@gmail.com</li>
                     </ul>
                 </div>
                 <div>

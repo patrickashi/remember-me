@@ -37,7 +37,7 @@ const About = () => {
 
             <div className="flex justify-center flex-col">
               <img src={photo1} alt="img" className=" mb-2 flex justify-center rounded-md md:w-[600px]" />
-              <i className="text-center text-white text-sm">Michael Oguzi</i>
+              <i className="text-center text-white text-sm">Oguzi Michael Ogar</i>
               <i className="text-center text-white text-sm mb-4">Author</i>
             </div>
         </div>
