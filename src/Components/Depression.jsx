@@ -32,7 +32,7 @@ const Depression = () => {
                     You are not alone in this. Together, we can find strength, hope, and the courage to move forward, 
                     one step at a time.
                 </p>
-                <i className="text-xs">posted on 30th aug 2024</i>
+                <i className="text-xs text-right">posted on 30th aug 2024</i>
             </div>
             
 
