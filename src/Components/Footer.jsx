@@ -3,7 +3,7 @@ import logo from "../Assets/logo.jpg";
 
 const Footer = () => {
     return (
-        <div className="px-4 md:px-20 py-10 bg-[#3b82f6]  duration-200 text-white border-t   border-gray-800">
+        <div className="px-4 md:px-20 py-10 bg-[#3b82f6]  duration-200 text-white">
             <div className="flex gap-16 flex-col md:flex-row justify-between border-b border-gray-300 pb-4">
                 <div>
                     <img className="w-20 rounded-sm" src={logo}  size={20} alt="logo" />
@@ -33,10 +33,10 @@ const Footer = () => {
                 <div>
                     <h1 className="font-bold mb-4">Social</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>Facebook</li>
                         <li>LinkedIn</li>
                         <li>Instagram</li>
                         <a href="https://wa.me/message/C5O2TUPGTPXRP1"> <li>whatsapp</li> </a>
+                        <a href="https://chat.whatsapp.com/GTlJGzUq62B7jo6OkhD2P8"> <li>whatsapp community</li> </a>
                     </ul>
                 </div>
             </div>
