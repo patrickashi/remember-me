@@ -26,8 +26,8 @@ const Footer = () => {
                 <div>
                     <h1 className="font-bold mb-4">Address</h1>
                     <ul className="flex flex-col gap-2">
-                        <li>500 Ikeja</li>
-                        <li>Lagos, NG 94158</li>
+                        <li>22 Ibijoke, Oregun Ikeja</li>
+                        <li>Lagos Nigeria</li>
                     </ul>
                 </div>
                 <div>
