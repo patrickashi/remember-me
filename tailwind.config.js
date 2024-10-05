@@ -15,6 +15,11 @@ module.exports = {
         slideIn: 'slideIn 1.5s ease-out forwards',
       },
     },
+    fontFamily: {
+      yatra: ['Yatra One', 'sans-serif'],
+      bangers: ['"Bangers"', 'cursive'],
+      luckiest: ['"Luckiest Guy"', 'cursive'],
+    },
   },
   variants: {
     extend: {},

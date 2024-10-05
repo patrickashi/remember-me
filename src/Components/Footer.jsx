@@ -1,5 +1,6 @@
 import React from "react"
 import logo from "../Assets/logo.jpg";
+import '@fontsource/luckiest-guy';
 
 const Footer = () => {
     return (
@@ -9,7 +10,7 @@ const Footer = () => {
                     <img className="w-20 rounded-sm" src={logo}  size={20} alt="logo" />
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Menu</h1>
+                    <h1 className="font-luckiest mb-4">Menu</h1>
                     <ul className="flex flex-col gap-2">
                         <li>Services</li>
                         <li>About</li>
@@ -17,21 +18,21 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Contact</h1>
+                    <h1 className="font-luckiest mb-4">Contact</h1>
                     <ul className="flex flex-col gap-2">
                         <li>08085001287</li>
                         <li>oguzimichael@gmail.com</li>
                     </ul>
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Address</h1>
+                    <h1 className="font-luckiest mb-4">Address</h1>
                     <ul className="flex flex-col gap-2">
                         <li>22 Ibijoke, Oregun Ikeja</li>
                         <li>Lagos Nigeria</li>
                     </ul>
                 </div>
                 <div>
-                    <h1 className="font-bold mb-4">Social</h1>
+                    <h1 className="font-luckiest mb-4">Social</h1>
                     <ul className="flex flex-col gap-2">
                         <li>LinkedIn</li>
                         <li>Instagram</li>

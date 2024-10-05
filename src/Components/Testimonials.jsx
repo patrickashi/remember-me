@@ -3,14 +3,16 @@ import leahyurfset from "../Assets/leahyurfset.jpg";
 import nelayliuay from "../Assets/nelayliuay.jpg";
 import roygold from "../Assets/roygold.jpg";
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
+import '@fontsource/bangers';
+import '@fontsource/luckiest-guy';
 
 const Testimonials = () => {
     const [ref, isVisible] = useIntersectionObserver({ threshold: 0.1 });
     return (
         <div className="px-4 md:px-20 py-20  duration-200">
             <div ref={ref} className={` transition-transform duration-200 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
-                <button className="border rounded-tr-xl px-2 py-1 text-xs font-semibold bg-[#3b82f6] text-gray-100 font-mono">TESTIMONIALS</button>
-                <h2 className="mt-4 mb-8 text-3xl md:text-4xl  text-gray-800">Hear inspiring, authentic, and transformative stories from our community.</h2>
+                <button className="border rounded-tr-xl px-2 py-1 bg-[#3b82f6] text-gray-100 font-luckiest">TESTIMONIALS</button>
+                <h2 className="mt-4 mb-8 text-3xl md:text-4xl  text-gray-800 font-luckiest">Hear inspiring, authentic, and transformative stories from our community.</h2>
             </div>
 
             <div className="flex flex-row">

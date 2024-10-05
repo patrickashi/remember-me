@@ -1,6 +1,8 @@
 import React from "react"
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
 import photo1 from "../Assets/photo1.jpg";
+import '@fontsource/bangers';
+import '@fontsource/luckiest-guy';
 
 
 const About = () => {
@@ -8,8 +10,8 @@ const About = () => {
     return (
         <div className="flex flex-col md:flex-col lg:flex-row gap-12 px-4 md:px-20 pt-20  duration-200 bg-[#3b82f6] border-t border-gray-300">
             <div ref={ref} className={`w-full md:w-[700px] transition-transform duration-100 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
-                <button className="border rounded-tr-xl px-4 py-1 text-xs font-mono font-semibold bg-gray-100 text-gray-800">ABOUT</button>
-                <h2 className="mt-4 mb-8 text-3xl md:text-3xl  text-gray-200">All About Remember-me</h2>
+                <button className="border rounded-tr-xl px-4 py-1 text-xs font-mono font-semibold bg-gray-100 text-gray-800 font-luckiest">ABOUT</button>
+                <h2 className="mt-4 mb-8 text-3xl md:text-3xl  text-gray-200 font-bangers">All About Remember-me</h2>
             </div>
 
             <div className="custom-scrollbar flex flex-col h-80 overflow-y-scroll  justify-between gap-4 py-10 text-gray-200 text-md mb-4 md:mb-20 ">

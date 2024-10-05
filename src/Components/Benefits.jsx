@@ -1,5 +1,7 @@
 import React from "react"
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
+import '@fontsource/bangers';
+import '@fontsource/luckiest-guy';
 
 
 const Benefits = () => {
@@ -7,8 +9,8 @@ const Benefits = () => {
     return (
         <div className="px-4 md:px-20 pt-20  duration-200">
             <div ref={ref} className={`w-full md:w-[700px] transition-transform duration-100 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
-                <button className="border rounded-tr-xl px-4 py-1 text-xs font-mono font-semibold bg-[#3b82f6] text-gray-100">BENEFITS</button>
-                <h2 className="mt-4 mb-8 text-3xl md:text-4xl font-mono text-gray-800">Experience empowerment, resilience, and connection.</h2>
+                <button className="border rounded-tr-xl px-4 py-1 text-xs font-luckiest  bg-[#3b82f6] text-gray-100">BENEFITS</button>
+                <h2 className="mt-4 mb-8 text-3xl md:text-4xl font-bangers text-gray-800">Experience empowerment, resilience, and connection.</h2>
             </div>
 
             <div className="flex flex-col md:flex-row justify-between gap-4 py-10 text-gray-800 text-3xl ">

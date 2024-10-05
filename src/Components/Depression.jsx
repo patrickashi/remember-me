@@ -1,5 +1,7 @@
 import React from "react"
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
+import '@fontsource/bangers';
+import '@fontsource/luckiest-guy';
 
 
 
@@ -9,7 +11,7 @@ const Depression = () => {
         <div className="flex flex-col md:flex-col lg:flex-row gap-12 px-4 md:px-20 pt-20  duration-200 bg-white border-y text-gray-800 border-gray-300">
             <div ref={ref} className={`w-full md:w-[700px] transition-transform duration-100 ${isVisible ? 'animate-slideIn' : '-translate-x-1'}`}>
                 
-                <h2 className="mt-4 mb-8 text-3xl md:text-3xl font-mono ">Are you Strugling with Depression?</h2>
+                <h2 className="mt-4 mb-8 text-3xl md:text-3xl font-luckiest">Are you Strugling with Depression?</h2>
             </div>
 
             <div className="custom-scrollbar flex flex-col    justify-between gap-4 py-1 text-md mb-4 md:mb-20 ">
