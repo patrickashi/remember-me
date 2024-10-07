@@ -5,6 +5,7 @@
   "dependencies": {
     "@fontsource/bangers": "^5.1.0",
     "@fontsource/luckiest-guy": "^5.1.0",
+    "@fontsource/oleo-script": "^5.1.0",
     "@fontsource/yatra-one": "^5.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -19,6 +19,7 @@ module.exports = {
       yatra: ['Yatra One', 'sans-serif'],
       bangers: ['"Bangers"', 'cursive'],
       luckiest: ['"Luckiest Guy"', 'cursive'],
+      oleo: ['Oleo Script', 'cursive'],
     },
   },
   variants: {
